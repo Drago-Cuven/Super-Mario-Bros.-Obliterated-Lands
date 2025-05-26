@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dscfxyy1gjof0"
-path="res://.godot/imported/holdslot-1.png-a41a77533d34458104d22c549d11e988.ctex"
+uid="uid://c3npltipflbsy"
+path="res://.godot/imported/off2.png-e559c5412263ea426b11d72656b8aec8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui/level/holdslot-1.png"
-dest_files=["res://.godot/imported/holdslot-1.png-a41a77533d34458104d22c549d11e988.ctex"]
+source_file="res://assets/tilesets/SMB1/onoff/off2.png"
+dest_files=["res://.godot/imported/off2.png-e559c5412263ea426b11d72656b8aec8.ctex"]
 
 [params]
 

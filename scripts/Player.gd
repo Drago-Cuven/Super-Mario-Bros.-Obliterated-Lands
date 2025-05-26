@@ -14,7 +14,7 @@ extends CharacterBody2D
 @export var playerPRunRate:float = 650
 @export var playerJumpPower:float = 400
 @export var playerNatDecelRate:float = 5
-@export var playerTurnDecelRate:float = 999 
+@export var playerTurnDecelRate:float = 50
 @export var playerPSpeed:bool = false
 @export var pspeedPause:bool = false
 @export var p_meter:float = 0
@@ -22,9 +22,8 @@ extends CharacterBody2D
 @export var p_meter_speed:float = 0
 @export var powerup = ""
 @export var riding = ""
-var hat = ""
-var badges = []
-var movesets = ["normal"]
+@export var hat = ""
+var badges = { "moveset": ["normal"], "action": [], "boost": [], "trash": [], "expert": [] }
 var oldpos = Vector2.ZERO
 var health
 var gravityOffset = Vector2.ZERO
