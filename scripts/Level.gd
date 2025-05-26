@@ -9,7 +9,7 @@ var diff:int = clampi(1, 1, 5)
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	var player = load("res://scenes/Player.tscn").instantiate()
+	var player = load("res://scenes/player.tscn").instantiate()
 	player.gravity = gravity
 	add_child(player)
 
