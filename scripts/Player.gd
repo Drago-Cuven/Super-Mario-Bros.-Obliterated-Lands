@@ -13,7 +13,7 @@ extends CharacterBody2D
 @export var playerRunRate:float = 400
 @export var playerPRunRate:float = 650
 @export var playerJumpPower:float = 400
-@export var playerNatDecelRate:float = 50
+@export var playerNatDecelRate:float = 5
 @export var playerTurnDecelRate:float = 999 
 @export var playerPSpeed:bool = false
 @export var pspeedPause:bool = false
