@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Super Mario Bros. Obliterated Lands"
-run/main_scene="uid://dt7nowr5w032k"
+run/main_scene="res://scenes/global.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 

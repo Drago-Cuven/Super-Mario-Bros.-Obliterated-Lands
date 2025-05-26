@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://fytllgjkho38"]
 
-[ext_resource type="Script" uid="uid://16h7dwtrutmm" path="res://scripts/Player.gd" id="1_v6fml"]
+[ext_resource type="Script" path="res://scripts/Player.gd" id="1_v6fml"]
 [ext_resource type="Texture2D" uid="uid://badefywbh3uur" path="res://assets/players/SMB1/Mario/Mario-Big.png" id="2_3li8b"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v6fml"]

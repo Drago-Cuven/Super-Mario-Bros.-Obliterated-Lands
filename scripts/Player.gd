@@ -55,6 +55,8 @@ func doMovement(delta):
 	if Input.is_action_just_pressed("game_jump") and is_on_floor():
 		velocity.y = 0 - playerJumpPower
 
+	print(move_toward(velocity.x, 0, playerNatDecelRate))
+
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction := Input.get_axis("game_left", "game_right")
@@ -71,8 +73,7 @@ func doMovement(delta):
 	else:
 		if velocity == Vector2.ZERO:
 			setAnim()
-			
-		velocity.x -= move_toward(velocity.x, 0, playerNatDecelRate) * (delta * 60)
+		velocity.x = move_toward(velocity.x, 0, playerNatDecelRate) * (delta * 60)
 
 
 # Check if an animation exists in AnimatedSprite2D
